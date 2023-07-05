@@ -1,2 +1,1 @@
-This is one of the very core in building html basic.
-
+ This is a project of making a website from the scratch we will be using html css to stat with from the bottom up. It will constitue starting from the very basic of html to advanced html to css basic to advanced. we will continue to add features and languages as we go on to make the website more responsive and more appelicable.
