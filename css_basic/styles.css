@@ -1,0 +1,17 @@
+body{
+    flex-direction: column;
+    height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex:auto;
+}
+article{
+    flex:2;
+    overflow: auto;
+}
+aside{
+    flex: 1;
+    overflow: auto;
+}
