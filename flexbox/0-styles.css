@@ -179,8 +179,9 @@
   
   /* Grid
       ============================= */
+
  .row {
-	dispay:flex;
+    display: flex;
   }	
   ul.row {
     margin: 0;
