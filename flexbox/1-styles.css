@@ -179,21 +179,18 @@
   
   /* Grid
       ============================= */
-  
+
+ .row {
+    display: flex;
+  }	
   ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
   }
   
-  .row::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
   
   [class*='col-'] {
-    float: left;
     padding: 0.5rem;
   }
   
@@ -202,8 +199,6 @@
   }
   
   .col-1-2 {
-    width: 50%;
-  }
   
   /* Navbar
       ============================= */
@@ -319,6 +314,9 @@
   .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
+  }
+  .section-services {
+	  
   }
   
   .section-title {
