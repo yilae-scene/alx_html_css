@@ -309,15 +309,14 @@
   .section-services {
     padding: var(--section-padding);
   }
+
   
   .section-header {
     text-align: var(--section-header-align);
     padding: var(--section-header-padding);
   }
-  .section-services {
-	  
-  }
-  
+
+
   .section-title {
     font-size: var(--section-title-font-size);
     font-weight: var(--section-title-font-weight);
