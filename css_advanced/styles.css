@@ -1,0 +1,46 @@
+*{
+    margin:0 auto;
+    padding:0 ;
+    font-family: source sans pro;
+}
+
+header {
+    width:100%;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    /* overflow-x: hidden; */
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    padding-top:25px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.banner{
+    margin-top: 200px;
+    display:flex;
+    flex-direction: column;
+}
+.section-top{
+    align-self: center;
+}
+.section-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    gap:20px;
+    text-align: center;
+    color:#fff;
+}
