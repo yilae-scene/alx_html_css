@@ -90,3 +90,14 @@ nav ul{
     display: flex;
     column-gap: 200px;
 }
+
+footer{
+    background-color: #000;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
