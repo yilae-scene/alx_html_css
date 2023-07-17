@@ -86,4 +86,7 @@ nav ul{
     padding:5px ;
 }
 
-.
+.QandA{
+    display: flex;
+    column-gap: 200px;
+}
