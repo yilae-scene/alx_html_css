@@ -44,3 +44,21 @@ nav ul{
     text-align: center;
     color:#fff;
 }
+
+.qoute{
+    margin-top: 10px;
+    display:flex;
+    justify-content: space-around;
+    background-color: #C271FF;
+
+}
+
+.tutorials{
+    display:flex;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tutorials h2{
+    margin-top: 10px;
+}
