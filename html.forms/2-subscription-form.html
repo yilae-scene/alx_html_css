@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Open+Sans&family=Orbitron:wght@900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 50px;
+            font-family: 'Allerta Stencil', sans-serif;
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+            /* font-family: 'Orbitron', sans-serif; */
+            background-image: url(backgound1.jpg);
+        }
+
+        form {
+            border: 1px solid rgb(121, 121, 121);
+            border-radius: 15px;
+            padding: 15px;
+            opacity: 0.2px;
+            width: 500px;
+            height: 100vh;
+            margin: 0 auto;
+            color: rgb(109, 146, 146);
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 20px;
+            width: 250px;
+            color: white;
+            background-color: rgb(83, 81, 78);
+            font-family: 'Allerta Stencil', sans-serif;
+            text-transform: uppercase;
+        }
+
+        button:hover {
+            transform: scale(1.03);
+        }
+        h2{
+            opacity: .5;
+            color:whitesmoke;
+        }
+        span {
+            color: red;
+        }
+        input{
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+        }
+        .fill_area{
+            color:whitesmoke;
+        }
+        ul{
+            list-style: none;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="register">
+        <h2>Welcome to DSTV subscription page</h2>
+        <fieldset>
+            <legend>
+                <h1>Subscription Form</h1>
+            </legend>
+            <p>
+                <label for="user_name"><span class="fill_area">Name: </span></label>
+            </p>
+            <input type="text" name="userName" id="user_name" required><span aria-label="required">
+                <strong>*</strong></span>
+            <p>
+                <label for="user_email"><span class="fill_area">Email: </span></label>
+            </p>
+            <input type="email" name="userEmail" id="user_email" required><span aria-label="required">
+                <strong>*</strong></span>
+            <h2>Subscription choice</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="subscribe" id="opt1" value="monthly">
+                    <label for="opt1">Monthly</label>
+                </li>
+                <li>
+                    <input type="radio" name="subscribe" id="opt2" value="yearly" checked><label for="opt2"> Yearly</label>
+                </li>
+            </ul>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

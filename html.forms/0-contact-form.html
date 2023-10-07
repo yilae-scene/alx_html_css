@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Open+Sans&family=Orbitron:wght@900&display=swap"
+        rel="stylesheet">
+    <style>
+        body{
+            margin: 0 auto;
+            padding: 50px;
+            font-family: 'Allerta Stencil', sans-serif;
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+            /* font-family: 'Orbitron', sans-serif; */
+            background-image:url(backgound1.jpg) ;
+        }
+        form{
+            border:1px solid rgb(121, 121, 121);
+            border-radius: 15px;
+            padding: 15px;
+            opacity: 0.2px;
+            background-color: rgb(244, 242, 241, 0.3);
+            
+            
+        }
+        button{
+            width: 250px;
+            height: inherit;
+            background-color: antiquewhite;
+            font-family: 'Allerta Stencil', sans-serif;
+            text-transform: capitalize;
+        }
+        button:hover{
+            transform: scale(1.05);
+        }
+        span{
+            color:red;
+        }
+        input {
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+        }
+    </style>
+    <title>HTML FORMS</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>User Interface</legend>
+            <p>
+                <label for="user_name">Name: <span aria-label="required"><strong>*</strong></span></strong></label>
+                <input type="text" name ="userName" id ="user_name" required="True">
+            </p>
+            <p>
+                <label for="user_email">Email: <span aria-label="required"><strong>*</strong></span></strong></label>
+                <input type="email" name="userEmail" id="user_email" required="True">
+            </p>
+            <p>Put Your Thoughts Below:</p>
+            <p>
+                <textarea name="" id="message" cols="40" rows="30" >
+                </textarea>
+            </p>
+            <button type="submit">submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Open+Sans&family=Orbitron:wght@900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0 auto;
+            padding: 50px;
+            font-family: 'Allerta Stencil', sans-serif;
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+            /* font-family: 'Orbitron', sans-serif; */
+            
+        }
+    
+        form {
+            border: 1px solid rgb(121, 121, 121);
+            border-radius: 15px;
+            padding: 15px;
+            opacity: 0.2px;
+            width: 500px;
+            height: 100vh;
+            margin: 0 auto;
+            color: rgb(109, 146, 146);
+            background-image: url(backgound1.jpg);
+    
+        }
+    
+        button {
+            margin-top: 20px;
+            padding: 20px;
+            width: 250px;
+            color: white;
+            background-color: rgb(83, 81, 78);
+            font-family: 'Allerta Stencil', sans-serif;
+            text-transform: uppercase;
+        }
+    
+        button:hover {
+            transform: scale(1.03);
+        }
+    
+        h2 {
+            opacity: .5;
+            color: whitesmoke;
+        }
+    
+        span {
+            color: red;
+        }
+    
+        input {
+            width: 350px;
+            height: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 5px;
+        }
+    
+        .fill_area {
+            color: whitesmoke;
+        }
+
+        #colors{
+            width: 350px;
+            height: 40px;
+            border-radius: 5px;
+        }
+        ul {
+            list-style: none;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <h1> User Form</h1>
+    <p>
+        <label for="user_name">Name: <span aria-label="required"><strong>*</strong></span></strong></label>
+        <input type="text" name="userName" id="user_name" required="True">
+    </p>
+    <label for="colors">Choose your favorite color:</label>
+    <p>
+        <select name="color" id="colors" required="true">
+        <option value="" disabled selected>Select your favorite color</option>
+        <option value="red">RED</option>
+        <option value="blue">BLUE</option>
+        <option value="green">GREEN</option>
+    </select>
+</p>
+    
+    <h4>Please select a prefered date and time</h4>
+    <label for="time">prefered time</label>
+    <p><input type="time" name="time" id="time" required = "true"></p>
+    <label for="date">prefered date</label>
+    <p><input type="date" name="time" id="date" required = "true"></p>
+    <button type="submit">submit</button>
+</form>
+</body>
+</html>
